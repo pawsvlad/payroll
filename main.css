@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+/*-----CSS for header and nav-------*/
+#header{
+    background-color: #009393;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: #f1f1f1;
+}
+.navbar-nav li a{
+    float: right;
+    color: #000 !important;
+    text-decoration: none;
+}
+.navbar-nav li a:hover{
+    font-weight: 900;
+    transform: scale(1.1);
+}
+
+
+.navbar-brand h3{
+    width: 7px;
+    margin: none ;
+    color: #000;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+nav .fa-bars{
+    color: #000 !important;
+    font-size: 30px;
+}
+
+
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #ffffff;
+    color: #013f7e;
+ }
+ .footerLogo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+ }
+ #footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+ #footer p{
+    font-size: 12px;
+    text-align: left;
+ }
+
+ #footer .row .fa{
+    display: inline;
+    font-size: 1.2em;
+    margin-right: 5px;
+ }
+ #footer  hr{
+    margin-top: 12px;
+
+ }
+ #footer a{
+    text-decoration: none;
+ }
+ #footer .fa-code{
+    color: #39e229;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+ .copyRight{
+    margin-bottom: -80px;
+    font-size: 18px;
+ }
+
+ .blue-btn{
+    background-color:#00e0c6;
+    color: #ffffff;
+    padding: 16px 20px;
+    margin: auto auto 16px auto;
+    border:none;
+    cursor:pointer;
+    min-width:100%;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 5 10px  #acacac;
+    opacity: 0.8;
+}
+input[type=text], input[type=email], input[type=password] {
+    min-width:100%;
+    padding:15px;
+    margin:5px 0 22px 0;
+    display: list-item;
+    background:#f1f1f1;
+    border-radius: 4px;
+    width: auto;
+
+}
+
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border: 2px solid red;
+}
+.registerbtn{
+    background-color: #968b8b;
+    color:white;
+    padding: 16px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    border-radius: 4px;
+    opacity: 0.8;
+    
+} 
+.registerbtn:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: #016170;
+}
+a {
+    color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+.container-terms{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white;
+    color: darkgray;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 15 25px  lightgray;
+}
+#regText{
+    display: grid;
+    place-items: center;
+}
